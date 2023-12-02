@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		25A5F51B2B1AC86300359325 /* PartyExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A5F51A2B1AC86300359325 /* PartyExplorerApp.swift */; };
-		25A5F51D2B1AC86300359325 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A5F51C2B1AC86300359325 /* ContentView.swift */; };
+		25A5F51D2B1AC86300359325 /* PoppinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A5F51C2B1AC86300359325 /* PoppinView.swift */; };
 		25A5F51F2B1AC86500359325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A5F51E2B1AC86500359325 /* Assets.xcassets */; };
 		25A5F5222B1AC86500359325 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A5F5212B1AC86500359325 /* Preview Assets.xcassets */; };
 		25A5F52C2B1AC86500359325 /* PartyExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A5F52B2B1AC86500359325 /* PartyExplorerTests.swift */; };
 		25A5F5362B1AC86500359325 /* PartyExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A5F5352B1AC86500359325 /* PartyExplorerUITests.swift */; };
 		25A5F5382B1AC86500359325 /* PartyExplorerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A5F5372B1AC86500359325 /* PartyExplorerUITestsLaunchTests.swift */; };
+		25A5F5492B1ACA0100359325 /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A5F5482B1ACA0100359325 /* Party.swift */; };
+		25A5F54B2B1ACA8C00359325 /* PoppinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A5F54A2B1ACA8C00359325 /* PoppinViewModel.swift */; };
+		25A5F54D2B1ACF9600359325 /* PartyViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A5F54C2B1ACF9600359325 /* PartyViewCard.swift */; };
+		25A5F54F2B1AD0C100359325 /* PartyBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A5F54E2B1AD0C100359325 /* PartyBannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		25A5F5172B1AC86300359325 /* PartyExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A5F51A2B1AC86300359325 /* PartyExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyExplorerApp.swift; sourceTree = "<group>"; };
-		25A5F51C2B1AC86300359325 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25A5F51C2B1AC86300359325 /* PoppinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppinView.swift; sourceTree = "<group>"; };
 		25A5F51E2B1AC86500359325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25A5F5212B1AC86500359325 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25A5F5272B1AC86500359325 /* PartyExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,11 @@
 		25A5F5312B1AC86500359325 /* PartyExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A5F5352B1AC86500359325 /* PartyExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyExplorerUITests.swift; sourceTree = "<group>"; };
 		25A5F5372B1AC86500359325 /* PartyExplorerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyExplorerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25A5F5482B1ACA0100359325 /* Party.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		25A5F54A2B1ACA8C00359325 /* PoppinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoppinViewModel.swift; sourceTree = "<group>"; };
+		25A5F54C2B1ACF9600359325 /* PartyViewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyViewCard.swift; sourceTree = "<group>"; };
+		25A5F54E2B1AD0C100359325 /* PartyBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyBannerView.swift; sourceTree = "<group>"; };
+		25C124872B1BB23800ECF818 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,7 @@
 		25A5F50E2B1AC86300359325 = {
 			isa = PBXGroup;
 			children = (
+				25C124872B1BB23800ECF818 /* README.md */,
 				25A5F5192B1AC86300359325 /* PartyExplorer */,
 				25A5F52A2B1AC86500359325 /* PartyExplorerTests */,
 				25A5F5342B1AC86500359325 /* PartyExplorerUITests */,
@@ -94,8 +104,11 @@
 		25A5F5192B1AC86300359325 /* PartyExplorer */ = {
 			isa = PBXGroup;
 			children = (
+				25A5F5472B1AC8C200359325 /* ViewModel */,
+				25A5F5452B1AC89A00359325 /* View */,
+				25A5F5442B1AC89000359325 /* Model */,
 				25A5F51A2B1AC86300359325 /* PartyExplorerApp.swift */,
-				25A5F51C2B1AC86300359325 /* ContentView.swift */,
+				25A5F51C2B1AC86300359325 /* PoppinView.swift */,
 				25A5F51E2B1AC86500359325 /* Assets.xcassets */,
 				25A5F5202B1AC86500359325 /* Preview Content */,
 			);
@@ -125,6 +138,31 @@
 				25A5F5372B1AC86500359325 /* PartyExplorerUITestsLaunchTests.swift */,
 			);
 			path = PartyExplorerUITests;
+			sourceTree = "<group>";
+		};
+		25A5F5442B1AC89000359325 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25A5F5482B1ACA0100359325 /* Party.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		25A5F5452B1AC89A00359325 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25A5F54C2B1ACF9600359325 /* PartyViewCard.swift */,
+				25A5F54E2B1AD0C100359325 /* PartyBannerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		25A5F5472B1AC8C200359325 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				25A5F54A2B1ACA8C00359325 /* PoppinViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25A5F51D2B1AC86300359325 /* ContentView.swift in Sources */,
+				25A5F54D2B1ACF9600359325 /* PartyViewCard.swift in Sources */,
+				25A5F51D2B1AC86300359325 /* PoppinView.swift in Sources */,
+				25A5F5492B1ACA0100359325 /* Party.swift in Sources */,
+				25A5F54F2B1AD0C100359325 /* PartyBannerView.swift in Sources */,
+				25A5F54B2B1ACA8C00359325 /* PoppinViewModel.swift in Sources */,
 				25A5F51B2B1AC86300359325 /* PartyExplorerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
