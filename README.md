@@ -17,7 +17,7 @@ This app allows users to browse through a list of party cards, each displaying e
 
 ## App Demo
 
-![Demo GIF](./Demo/demo.gif)
+ - [Demo Video](https://www.youtube.com/shorts/NMEqJbgIMtc)
 
 ## Technical Details
 
